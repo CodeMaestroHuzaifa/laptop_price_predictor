@@ -1,15 +1,15 @@
 from model import df,pipe
 import numpy as np
 import streamlit as st
-# hide_button = """
-# <style>
-# button{
-#   visibility:hidden;
-# }
+hide_button = """
+<style>
+button{
+  visibility:hidden;
+}
 
-# </style>
+</style>
 
-# """ 
+""" 
 
 st.title("Laptop Price Predictor")
 
