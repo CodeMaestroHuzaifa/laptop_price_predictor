@@ -11,7 +11,7 @@ stToolbar{
 
 """ 
 
-st.title("Laptop  Predictor")
+st.title("Laptop Price Predictor")
 
 st.markdown(hide_button, unsafe_allow_html=True)
 
