@@ -1,6 +1,15 @@
 from model import df,pipe
 import numpy as np
 import streamlit as st
+hide_button = """
+<style>
+stToolbar {
+  visibility:hidden;
+}
+
+</style>
+
+""" 
 
 st.title("Laptop Price Predictor")
 
