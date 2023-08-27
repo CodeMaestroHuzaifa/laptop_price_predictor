@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 hide_button = """
 <style>
-button {
+stToolbar{
   visibility:hidden;
 }
 
@@ -12,6 +12,8 @@ button {
 """ 
 
 st.title("Laptop Price Predictor")
+
+st.markdown(hide_button, unsafe_allow_html=True)
 
 #Manufacturer
 brand = st.selectbox('Manufacturer',df['Company'].unique())
